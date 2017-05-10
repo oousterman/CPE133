@@ -42,8 +42,8 @@ architecture Behavioral of Half_Adder is
 
 begin
 
-SUM <= A and B;
+SUM <= A xor B;
 
-CO <= A xor B;
+CO <= A and B;
 
 end Behavioral;

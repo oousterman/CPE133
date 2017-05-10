@@ -43,8 +43,8 @@ architecture Behavioral of Full_Adder is
 
 begin
 
-SUM <= A xor B xor Cin;
+    SUM <= A xor B xor Cin;
 
-CO <= (A and B) or (A and Cin) or (B and Cin)
+    CO <= (A and B) or (A and Cin) or (B and Cin);
 
 end Behavioral;
