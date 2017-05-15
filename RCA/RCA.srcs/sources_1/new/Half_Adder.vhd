@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Cal Poly SLO
+-- Engineer: Cole Cummins, Oliver Ousterman
 -- 
 -- Create Date: 05/09/2017 08:18:59 PM
 -- Design Name: 
