@@ -45,7 +45,7 @@ architecture Behavioral of RCA_4_Bits is
 
 begin
    process(A,B,Cin)
-	   variable v_res : std_logic_vector(3 downto 0); 
+	   variable v_res : std_logic_vector(4 downto 0); 
 	begin
       v_res := ('1' & A) + ('1' & B) + Cin; 
 	   SUM <= v_res(3 downto 0); 

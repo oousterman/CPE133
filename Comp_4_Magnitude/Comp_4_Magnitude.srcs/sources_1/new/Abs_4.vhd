@@ -58,7 +58,17 @@ begin
              
     process (SIGNED)
     begin
+        SEL <= SIGNED(3);
         INTER <= not SIGNED;
+    end process;
+    
+    process (SEL)
+    begin
+        if (SEL = '1') then
+            ABS_val <= SUM_OUT;
+        else
+            ABS_val <= SIGNED;
+        end if;
     end process;
     
 end Behavioral;

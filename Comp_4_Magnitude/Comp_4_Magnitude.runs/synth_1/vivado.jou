@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed May 17 16:09:26 2017
+# Process ID: 6904
+# Current directory: C:/Users/ccummi08/Desktop/Comp_4_Magnitude/Comp_4_Magnitude.runs/synth_1
+# Command line: vivado.exe -log Comp_4_Magnitude.vds -mode batch -messageDb vivado.pb -notrace -source Comp_4_Magnitude.tcl
+# Log file: C:/Users/ccummi08/Desktop/Comp_4_Magnitude/Comp_4_Magnitude.runs/synth_1/Comp_4_Magnitude.vds
+# Journal file: C:/Users/ccummi08/Desktop/Comp_4_Magnitude/Comp_4_Magnitude.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Comp_4_Magnitude.tcl -notrace
