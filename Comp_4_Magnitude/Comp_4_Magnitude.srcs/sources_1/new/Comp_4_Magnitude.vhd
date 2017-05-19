@@ -58,8 +58,8 @@ architecture Behavioral of Comp_4_Magnitude is
                DP : out STD_LOGIC);
     end component;
     
-    signal Abs_1, Abs_2 : STD_LOGIC_VECTOR (3 downto 0);
-    signal Eq, SIGN : STD_LOGIC;
+    signal Abs_1, Abs_2, MED : STD_LOGIC_VECTOR (3 downto 0) := "0000";
+    signal Eq, SIGN : STD_LOGIC := '0';
     
 begin
 
@@ -79,7 +79,7 @@ begin
     LED : BCD_LED
     Port Map ( SIGN => SIGN,
                BCD => A(2 downto 0),
-               ANODES => ANODES_big,
+               ANODES => MED,
                SEG7 => SEG7_big,
                DP => DP_big);
     
@@ -87,10 +87,11 @@ begin
     begin 
         SIGN <= not (A(3) xor B(3));
         if Eq = '0' then
-            ANODES_big <= "1111";
+            MED <= "1111";
         else
-            ANODES_big <= "1110";
+            MED <= "1110";
         end if;
+        ANODES_big <= MED;
     end process;
 
 end Behavioral;

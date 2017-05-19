@@ -34,6 +34,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity BCD_LED is
     Port ( SIGN : in STD_LOGIC;
            BCD : in STD_LOGIC_VECTOR (2 downto 0);
+           AIN : in STD_LOGIC_VECTOR (3 downto 0);
            ANODES : out STD_LOGIC_VECTOR (3 downto 0);
            SEG7 : out STD_LOGIC_VECTOR (6 downto 0);
            DP : out STD_LOGIC);
@@ -43,8 +44,8 @@ architecture Behavioral of BCD_LED is
 
 begin
     process(SIGN,BCD)
+    ANODES <= AIN;
     begin
-    ANODES <= "1110";
         case BCD is
             when "000" => SEG7 <= "1000000";
             when "001" => SEG7 <= "1111001";

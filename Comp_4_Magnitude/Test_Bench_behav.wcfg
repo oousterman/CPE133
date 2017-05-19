@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Test_Bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Test_Bench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="982500000fs"></ZoomStartTime>
+      <ZoomEndTime time="997521552fs"></ZoomEndTime>
+      <Cursor1Time time="985000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/Test_Bench/sA" type="array">
+      <obj_property name="ElementShortName">sA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/sB" type="array">
+      <obj_property name="ElementShortName">sB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sB[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/sSEG7_big" type="array">
+      <obj_property name="ElementShortName">sSEG7_big[6:0]</obj_property>
+      <obj_property name="ObjectShortName">sSEG7_big[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/sANODES_big" type="array">
+      <obj_property name="ElementShortName">sANODES_big[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sANODES_big[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/sDP_big" type="logic">
+      <obj_property name="ElementShortName">sDP_big</obj_property>
+      <obj_property name="ObjectShortName">sDP_big</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/COMP_4/SEG7_big" type="array">
+      <obj_property name="ElementShortName">SEG7_big[6:0]</obj_property>
+      <obj_property name="ObjectShortName">SEG7_big[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test_Bench/COMP_4/Eq" type="logic">
+      <obj_property name="ElementShortName">Eq</obj_property>
+      <obj_property name="ObjectShortName">Eq</obj_property>
+   </wvobject>
+</wave_config>
