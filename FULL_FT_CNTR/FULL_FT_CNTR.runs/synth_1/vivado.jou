@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon May 22 16:15:22 2017
+# Process ID: 9140
+# Current directory: C:/Users/Cole/FULL_FT_CNTR/FULL_FT_CNTR.runs/synth_1
+# Command line: vivado.exe -log FULL_FT_CNTR.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FULL_FT_CNTR.tcl
+# Log file: C:/Users/Cole/FULL_FT_CNTR/FULL_FT_CNTR.runs/synth_1/FULL_FT_CNTR.vds
+# Journal file: C:/Users/Cole/FULL_FT_CNTR/FULL_FT_CNTR.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FULL_FT_CNTR.tcl -notrace
