@@ -32,8 +32,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity COMP_4_MAG is
-    Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
-           B : in STD_LOGIC_VECTOR (3 downto 0);
+    Port ( A_in : in STD_LOGIC_VECTOR (3 downto 0);
+           B_in : in STD_LOGIC_VECTOR (3 downto 0);
            SEG7 : out STD_LOGIC_VECTOR (6 downto 0);
            ANODES : out STD_LOGIC_VECTOR (3 downto 0);
            DP : out STD_LOGIC);
@@ -42,42 +42,46 @@ end COMP_4_MAG;
 architecture Behavioral of COMP_4_MAG is
 
     component ABS_VAL
-        Port ( SIGNED : in STD_LOGIC_VECTOR (3 downto 0)
-               ABS_4 : out STD_LOGIC_VECTOR (3 downto 0)
+        Port ( SIGNED : in STD_LOGIC_VECTOR (3 downto 0);
+               ABS_4 : out STD_LOGIC_VECTOR (3 downto 0));
     end component;
     
     component COMP_4
-        Port ( A, B : in STD_LOGIC_VECTOR (3 downto 0)
+        Port ( A, B : in STD_LOGIC_VECTOR (2 downto 0);
                EQ : out STD_LOGIC);
     end component;
     
     signal ABS_A_OUT, ABS_B_OUT : STD_LOGIC_VECTOR (3 downto 0) := "0000";
     signal EQ_OUT : STD_LOGIC := '0';
+    signal A_down, B_down : STD_LOGIC_VECTOR (2 downto 0);
     
 begin
-
+    
+    A_down <= A_in (2 downto 0);
+    B_down <= B_in (2 downto 0);
+    
     ABS_VAL_A : ABS_VAL
-    Port Map ( SIGNED => A,
+    Port Map ( SIGNED => A_in,
                ABS_4 => ABS_A_OUT);
                
     ABS_VAL_B : ABS_VAL
-    Port Map ( SIGNED => B,
+    Port Map ( SIGNED => B_in,
                ABS_4 => ABS_B_OUT);
                
     COMP : COMP_4
-    Port Map( A => ABS_A_OUT,
-              B => ABS_B_OUT,
+    Port Map( A => A_down,
+              B => B_down,
               EQ => EQ_OUT);
               
-    process(ABS_A_OUT, ABS_B_OUT, EQ_OUT, A, B)
+    process(ABS_A_OUT, ABS_B_OUT, EQ_OUT, A_in, B_in)
     begin 
-        DP <= not (A(3) xor B(3));
+        DP <= not (A_in(3) xor B_in(3));
         if EQ_OUT = '0' then
             ANODES <= "1111";
         else
             ANODES <= "1110";
         end if;
-        case A(2 downto 0) is
+        case A_in(2 downto 0) is
             when "000" => SEG7 <= "1000000";
             when "001" => SEG7 <= "1111001";
             when "010" => SEG7 <= "0100100";

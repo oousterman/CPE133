@@ -33,7 +33,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity ABS_VAL is
     Port ( SIGNED : in STD_LOGIC_VECTOR (3 downto 0);
-           ABS_val : out STD_LOGIC_VECTOR (3 downto 0));
+           ABS_4 : out STD_LOGIC_VECTOR (3 downto 0));
 end ABS_VAL;
 
 architecture Behavioral of ABS_VAL is
@@ -65,9 +65,9 @@ begin
     process (SEL)
     begin
         if (SEL = '1') then
-            ABS_val <= SUM_OUT;
+            ABS_4 <= SUM_OUT;
         else
-            ABS_val <= SIGNED;
+            ABS_4 <= SIGNED;
         end if;
     end process;
     

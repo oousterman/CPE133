@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Mon May 22 15:05:31 2017
+# Process ID: 5672
+# Current directory: C:/Users/Cole/COMP_4_MAG/COMP_4_MAG.runs/impl_1
+# Command line: vivado.exe -log COMP_4_MAG.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source COMP_4_MAG.tcl -notrace
+# Log file: C:/Users/Cole/COMP_4_MAG/COMP_4_MAG.runs/impl_1/COMP_4_MAG.vdi
+# Journal file: C:/Users/Cole/COMP_4_MAG/COMP_4_MAG.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source COMP_4_MAG.tcl -notrace
