@@ -98,7 +98,7 @@ set_property PACKAGE_PIN U7 [get_ports {SEG7[6]}]
 	#set_property IOSTANDARD LVCMOS33 [get_ports dp]
 
 set_property PACKAGE_PIN U2 [get_ports {ANODE[0]}]					
-	set_property IOSTANDARD LVCMOS33 [get_ports ANODE[0]}]
+	set_property IOSTANDARD LVCMOS33 [get_ports {ANODE[0]}]
 set_property PACKAGE_PIN U4 [get_ports {ANODE[1]}]					
 	set_property IOSTANDARD LVCMOS33 [get_ports {ANODE[1]}]
 set_property PACKAGE_PIN V4 [get_ports {ANODE[2]}]					

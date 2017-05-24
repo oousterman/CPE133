@@ -37,7 +37,7 @@ end clk_div_fs;
 
 architecture my_clk_div of clk_div_fs is
    constant MAX_COUNT_SLOW : integer := (20000000);  -- slow count
-   constant MAX_COUNT_FAST : integer := (10000000);  -- fast count 
+   constant MAX_COUNT_FAST : integer := (100000);  -- fast count 
    signal tmp_clks : std_logic := '0'; 
    signal tmp_clkf : std_logic := '0'; 
 	

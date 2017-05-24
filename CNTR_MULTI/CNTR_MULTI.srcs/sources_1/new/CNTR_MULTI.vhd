@@ -80,6 +80,12 @@ begin
             when "0111" => SEG7_ANODE_1 <= "1111000";
             when "1000" => SEG7_ANODE_1 <= "0000000";
             when "1001" => SEG7_ANODE_1 <= "0011000";
+            when "1010" => SEG7_ANODE_1 <= "1000000";
+            when "1011" => SEG7_ANODE_1 <= "1111001";
+            when "1100" => SEG7_ANODE_1 <= "0100100";
+            when "1101" => SEG7_ANODE_1 <= "0110000";
+            when "1110" => SEG7_ANODE_1 <= "0011001";
+            when "1111" => SEG7_ANODE_1 <= "0010010";
             when others => SEG7_ANODE_1 <= "1111111";
         end case;
         
@@ -93,10 +99,10 @@ begin
             when others => SEG7_ANODE_2 <= "1111111";
         end case;
         
-        if (rising_edge(CLK_FAST)) then
+        if ('1' = CLK_FAST) then
             SEG7 <= SEG7_ANODE_1;
             ANODE <= "1110";
-        elsif (falling_edge(CLK_FAST)) then
+        else
             SEG7 <= SEG7_ANODE_2;
             ANODE <= "1101";
         end if;

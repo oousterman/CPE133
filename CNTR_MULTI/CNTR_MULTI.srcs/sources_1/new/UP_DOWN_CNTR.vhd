@@ -54,5 +54,5 @@ begin
             end if;
         end if;
     end process;
-
+    COUNT <= inter_count;
 end Behavioral;

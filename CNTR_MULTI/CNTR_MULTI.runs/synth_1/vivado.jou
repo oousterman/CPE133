@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Wed May 24 15:17:49 2017
+# Process ID: 4968
+# Current directory: C:/Users/Cole/CNTR_MULTI/CNTR_MULTI.runs/synth_1
+# Command line: vivado.exe -log CNTR_MULTI.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CNTR_MULTI.tcl
+# Log file: C:/Users/Cole/CNTR_MULTI/CNTR_MULTI.runs/synth_1/CNTR_MULTI.vds
+# Journal file: C:/Users/Cole/CNTR_MULTI/CNTR_MULTI.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CNTR_MULTI.tcl -notrace
