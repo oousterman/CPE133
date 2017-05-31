@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Cal Poly CPE 133
+-- Engineer: Cole Cummins, Oliver Ousterman
 -- 
 -- Create Date: 05/21/2017 05:42:06 PM
 -- Design Name: 
@@ -8,7 +8,7 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
--- Description: 
+-- Description: Display module, describes the entire circuit as well as the multiplexed 7seg display
 -- 
 -- Dependencies: 
 -- 
@@ -21,15 +21,6 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity CNTR_MULTI is
     Port ( BTN_in : in STD_LOGIC;
