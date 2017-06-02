@@ -8,8 +8,8 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
--- Description: 
--- 
+-- Description: A 4 bit full feature counter that uses a state machine as its count, having options to count only odd and even numbers, 
+-- the ability to hold and reset, and count both down and up
 -- Dependencies: 
 -- 
 -- Revision:
@@ -22,15 +22,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity FSM_CNTR is
     Port ( HOLD, UP, RESET, EVEN, ODD, CLK : in STD_LOGIC;
            COUNT : out STD_LOGIC_VECTOR (2 downto 0));
@@ -41,6 +32,7 @@ architecture Behavioral of FSM_CNTR is
     signal PS, NS : state_type;
 begin
     
+    --Reset and holding--
     process(CLK, HOLD, RESET, NS)
     begin
         if (RESET = '1') then
@@ -50,6 +42,7 @@ begin
         end if;
     end process;
     
+    --State descriptions--
     process(PS, EVEN, ODD, UP)
     begin
         case PS is 
