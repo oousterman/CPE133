@@ -8,7 +8,7 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
--- Description: 
+-- Description: display for the fsm counter
 -- 
 -- Dependencies: 
 -- 
@@ -21,15 +21,6 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity FULL_FT_CNTR is
     Port ( HOLD_in, UP_in, RESET_in, EVEN_in, ODD_in, CLK_in : in STD_LOGIC;
