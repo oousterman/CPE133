@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1496443753">
+  <File Type="PWROPT-DRC" Name="ADDSUB_5BIT_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ADDSUB_5BIT_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ADDSUB_5BIT_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="ADDSUB_5BIT_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="ADDSUB_5BIT.tcl"/>
+  <File Type="OPT-HWDEF" Name="ADDSUB_5BIT.hwdef"/>
+  <File Type="RDI-RDI" Name="ADDSUB_5BIT.vdi"/>
+  <File Type="OPT-DCP" Name="ADDSUB_5BIT_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ADDSUB_5BIT_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="ADDSUB_5BIT_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="ADDSUB_5BIT_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="ADDSUB_5BIT_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ADDSUB_5BIT_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ADDSUB_5BIT_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ADDSUB_5BIT_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ADDSUB_5BIT_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ADDSUB_5BIT_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ADDSUB_5BIT_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ADDSUB_5BIT_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ADDSUB_5BIT_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="ADDSUB_5BIT_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ADDSUB_5BIT_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ADDSUB_5BIT_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ADDSUB_5BIT_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ADDSUB_5BIT_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="ADDSUB_5BIT_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ADDSUB_5BIT_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ADDSUB_5BIT_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ADDSUB_5BIT_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ADDSUB_5BIT_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ADDSUB_5BIT_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="ADDSUB_5BIT.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="ADDSUB_5BIT_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="ADDSUB_5BIT.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ADDSUB_5BIT_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="ADDSUB_5BIT.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ADDSUB_5BIT_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="ADDSUB_5BIT.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ADDSUB_5BIT_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ADDSUB_5BIT_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ADDSUB_5BIT_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="ADDSUB_5BIT_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ADDSUB_5BIT_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ADDSUB_5BIT_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ADDSUB_5BIT_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ADDSUB_5BIT_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ADDSUB_5BIT_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ADDSUB_5BIT_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ADDSUB_5BIT_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ADDSUB_5BIT_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ADDSUB_5BIT_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ADDSUB_5BIT_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ADDSUB_5BIT_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="ADDSUB_5BIT.bit"/>
+  <File Type="BITSTR-RBT" Name="ADDSUB_5BIT.rbt"/>
+  <File Type="BITSTR-NKY" Name="ADDSUB_5BIT.nky"/>
+  <File Type="BITSTR-BMM" Name="ADDSUB_5BIT_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ADDSUB_5BIT.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="ADDSUB_5BIT.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/RCA_8bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sseg_dec.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ADDSUB_5BIT.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ADDSUB_5BIT"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ADDSUB_5BIT_constrs.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
