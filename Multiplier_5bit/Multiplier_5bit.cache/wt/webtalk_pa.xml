@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Jun 07 14:48:52 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="b83d679a0e9b46cbb5a7dd8b0bbb5d16" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="SaveAllFiles" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="2" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="1" type="JavaHandler"/>
+<property name="ui.views.b.h.e" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 104, 504" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 140, 407" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 159, 358" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 175, 352" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 192, 391" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 200, 415" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 220, 381" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 237, 353" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 253, 405" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 262, 267, false, false, true, false, false" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit.vhd, 295, 490" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 100, 418" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 102, 464" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 104, 435" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 108, 230" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 109, 428" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 115, 452" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 118, 537" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 118, 537, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 121, 436" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 121, 489" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 129, 205" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 130, 430" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 132, 536" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 134, 533" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 134, 533, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 135, 484" value="2" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 135, 484, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 137, 226" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 137, 522" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 139, 494" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 140, 410" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 149, 508" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 150, 502" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 152, 499" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 153, 546" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 160, 495" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 170, 413" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 172, 209" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 176, 515" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 185, 501" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 187, 378" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 187, 431" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 187, 482" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 195, 279" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 203, 503" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 208, 286" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 210, 270" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 211, 418" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 213, 279" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 213, 499" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 214, 282, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 215, 492" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 217, 503" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 219, 532" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 220, 299" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 221, 279" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 221, 289" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 223, 462" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 224, 322" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 227, 401" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 229, 507" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 233, 441" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 234, 448" value="2" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 239, 545" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 241, 391" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 245, 408" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 251, 262" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 255, 416" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 263, 471" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 267, 412" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 286, 436" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 29, 405" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 299, 440" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 318, 468" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 4, 433" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 54, 399" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 86, 452" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_FSM.vhd, 97, 397" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 14, 231" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 170, 418" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 214, 350" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 217, 315" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 221, 340" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 222, 334" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 244, 368" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 284, 227" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 285, 230" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 285, 230, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 290, 232" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 294, 292" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 295, 331" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 296, 331, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 296, 334" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 296, 334, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 297, 332" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 299, 398" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 299, 398, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 300, 296" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 300, 327" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 300, 327, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 302, 364" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 302, 364, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 305, 264" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 311, 262" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 314, 310" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 315, 150" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 318, 325" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 320, 292" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 321, 265" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 322, 370" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 322, 399" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 327, 197" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 33, 144" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 342, 281" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 343, 209" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 35, 213" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 360, 344" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 360, 348, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 361, 299" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 362, 329" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 362, 348" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 362, 348, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 364, 380" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 364, 380, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 366, 279" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 366, 279, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 366, 314" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 366, 417" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 366, 417, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 372, 364" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 379, 313" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 381, 381" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 382, 348" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 382, 413" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 420, 191" value="1" type="GuiResourceData"/>
+<property name="Multiplier_5bit_constraints.xdc, 5, 196" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, Add or create constraints" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, Multiplier_5bit_constraints" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Sources_add_sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Multiplier_5bit_constraints.xdc], 9, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Multiplier_5bit_constraints.xdc], 9, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 3, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Multiplier_5bit - Behavioral (Multiplier_5bit.vhd" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, sseg_dec_uni - my_sseg (sseg_dec_uni.vhd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="3" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_VIEW, View" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="RDIResource.ConfirmSaveTextEditsDialog_YES, Yes" value="1" type="GuiResourceData"/>
+<property name="RDIResource.MainWinMenuMgr_LAYOUT, Layout" value="4" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_ALL_FILES, Save All Files..." value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
