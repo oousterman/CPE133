@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1496705773">
+  <File Type="PWROPT-DRC" Name="PAR_GEN_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="PAR_GEN_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="PAR_GEN_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="PAR_GEN_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="PAR_GEN.tcl"/>
+  <File Type="OPT-HWDEF" Name="PAR_GEN.hwdef"/>
+  <File Type="RDI-RDI" Name="PAR_GEN.vdi"/>
+  <File Type="OPT-DCP" Name="PAR_GEN_opt.dcp"/>
+  <File Type="OPT-DRC" Name="PAR_GEN_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="PAR_GEN_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="PAR_GEN_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="PAR_GEN_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="PAR_GEN_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PAR_GEN_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PAR_GEN_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PAR_GEN_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PAR_GEN_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PAR_GEN_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PAR_GEN_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PAR_GEN_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="PAR_GEN_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PAR_GEN_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PAR_GEN_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PAR_GEN_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="PAR_GEN_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="PAR_GEN_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PAR_GEN_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="PAR_GEN_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PAR_GEN_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="PAR_GEN_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PAR_GEN_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="PAR_GEN.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="PAR_GEN_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="PAR_GEN.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PAR_GEN_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="PAR_GEN.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PAR_GEN_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="PAR_GEN.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PAR_GEN_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="PAR_GEN_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="PAR_GEN_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="PAR_GEN_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PAR_GEN_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PAR_GEN_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PAR_GEN_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PAR_GEN_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="PAR_GEN_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PAR_GEN_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PAR_GEN_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PAR_GEN_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PAR_GEN_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PAR_GEN_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PAR_GEN_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="PAR_GEN.bit"/>
+  <File Type="BITSTR-RBT" Name="PAR_GEN.rbt"/>
+  <File Type="BITSTR-NKY" Name="PAR_GEN.nky"/>
+  <File Type="BITSTR-BMM" Name="PAR_GEN_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="PAR_GEN.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="PAR_GEN.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CNTR_5BIT.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSM_PAR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SEG7_PAR.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_div_fs.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/univ_sr.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PAR_GEN.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PAR_GEN"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/PAR_GEN_constr.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
