@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Jun 07 19:55:36 2017">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="07dc4b3fd70c4b5ea57d95d2869634a7" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="2" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="SaveAllFiles" value="4" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, four_4bit_sort - Behavioral (four_4bit_sort.vhd" value="8" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="6" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="3" type="GuiResourceData"/>
+<property name="RDIResource.ConfirmSaveTextEditsDialog_YES, Yes" value="2" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_ALL_FILES, Save All Files..." value="2" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 102, 557" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 102, 565" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 105, 363" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 107, 377" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 107, 495" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 107, 537" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 108, 260" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 108, 297" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 108, 522" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 110, 508" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 110, 516" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 113, 544" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 113, 544, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 116, 488" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 116, 488, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 116, 520" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 117, 488" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 117, 553" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 119, 438" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 12, 521" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 120, 283" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 120, 543" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 120, 558" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 121, 568" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 122, 511" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 122, 558" value="2" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 123, 432" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 123, 534" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 124, 564" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 124, 566, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 127, 519" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 129, 555" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 130, 569" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 131, 554" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 131, 573" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 132, 534" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 132, 544" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 133, 541" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 138, 568" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 140, 549" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 143, 529" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 153, 523" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 167, 565" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 179, 495" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 192, 492" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 194, 306, false, false, true, false, false" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 197, 569" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 199, 256, false, false, true, false, false" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 204, 470" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 205, 513" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 210, 528" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 22, 535" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 232, 371" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 242, 500" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 245, 321" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 260, 342" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 264, 426" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 274, 514" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 360, 213" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 373, 184" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 385, 467" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 401, 512" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 49, 429" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 492, 448" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 495, 448" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 52, 161" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 54, 429" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 55, 303" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 69, 518" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 74, 321" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 74, 332" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 80, 103" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 84, 407" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 87, 502" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 88, 404" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 88, 415" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 90, 514" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 90, 565" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 91, 543" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 92, 508" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 93, 507" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 97, 515" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort.vhd, 99, 433" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 108, 425" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 109, 368" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 109, 422" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 110, 368" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 111, 266" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 111, 368" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 112, 216" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 113, 398" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 113, 433" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 113, 503" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 117, 467" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 117, 470" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 120, 176" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 120, 328" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 121, 485" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 121, 533" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 121, 533, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 127, 498" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 129, 519" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 131, 507" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 135, 312" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 140, 388" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 143, 378" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 143, 469" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 143, 482" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 143, 521" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 145, 482" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 146, 558" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 147, 473" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 147, 503" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 148, 383" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 149, 326" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 15, 395" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 150, 412" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 150, 486" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 150, 518" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 151, 483" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 152, 493" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 158, 468" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 158, 484" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 158, 542" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 158, 548" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 161, 436" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 161, 440" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 161, 489" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 165, 466" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 171, 496" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 173, 261" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 173, 487" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 176, 448" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 177, 479" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 178, 521" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 180, 466" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 195, 506" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 195, 515" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 198, 487" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 198, 502" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 202, 534" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 206, 510" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 207, 486" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 207, 492" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 209, 487" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 214, 466" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 214, 557" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 220, 473" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 222, 481" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 223, 558" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 229, 516" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 230, 473" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 242, 447" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 244, 436" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 246, 520" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 248, 509" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 255, 538" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 256, 555" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 260, 145" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 265, 554" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 274, 546" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 276, 515" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 28, 397" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 28, 481" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 305, 423" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 320, 558" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 320, 558, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 320, 562" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 364, 397" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 378, 400" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 403, 467" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 406, 277" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 415, 429" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 442, 465" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 46, 476" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 52, 460" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 52, 460, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 72, 398" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 83, 346" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 84, 311" value="1" type="GuiResourceData"/>
+<property name="four_4bit_sort_FSM.vhd, 93, 484" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
