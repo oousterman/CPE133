@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: Cal Poly CPE 133
+-- Engineer: Cole Cummins, Oliver Ousterman
 -- 
 -- Create Date: 06/05/2017 02:52:51 PM
 -- Design Name: 
@@ -23,15 +23,6 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity SEG7_PAR is
     Port ( SEG_IN : in STD_LOGIC_VECTOR (4 downto 0);
