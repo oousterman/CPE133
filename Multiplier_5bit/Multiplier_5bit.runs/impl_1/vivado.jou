@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 18:20:29 2017
+# Process ID: 4320
+# Current directory: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1
+# Command line: vivado.exe -log Multiplier_5bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Multiplier_5bit.tcl -notrace
+# Log file: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/Multiplier_5bit.vdi
+# Journal file: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Multiplier_5bit.tcl -notrace

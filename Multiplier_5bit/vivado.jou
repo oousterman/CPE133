@@ -1,14 +1,33 @@
 #-----------------------------------------------------------
-# Vivado v2016.2 (64-bit)
-# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
-# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Jun 06 17:04:20 2017
-# Process ID: 5940
-# Current directory: E:/CPE 133/Multiplier_5bit
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7452 E:\CPE 133\Multiplier_5bit\Multiplier_5bit.xpr
-# Log file: E:/CPE 133/Multiplier_5bit/vivado.log
-# Journal file: E:/CPE 133/Multiplier_5bit\vivado.jou
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 17:45:32 2017
+# Process ID: 5780
+# Current directory: C:/Users/Cole/Desktop/Multiplier_5bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1908 C:\Users\Cole\Desktop\Multiplier_5bit\Multiplier_5bit.xpr
+# Log file: C:/Users/Cole/Desktop/Multiplier_5bit/vivado.log
+# Journal file: C:/Users/Cole/Desktop/Multiplier_5bit\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {E:/CPE 133/Multiplier_5bit/Multiplier_5bit.xpr}
+open_project C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.xpr
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+save_project_as Multiplier_5bit {E:/CPE 133/Multiplier_5bit} -force

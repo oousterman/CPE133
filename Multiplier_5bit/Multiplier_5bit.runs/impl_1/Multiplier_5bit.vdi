@@ -1,0 +1,135 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 18:20:29 2017
+# Process ID: 4320
+# Current directory: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1
+# Command line: vivado.exe -log Multiplier_5bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Multiplier_5bit.tcl -notrace
+# Log file: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/Multiplier_5bit.vdi
+# Journal file: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Multiplier_5bit.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'B[1]]'. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[2]]'. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B[3]]'. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.srcs/constrs_1/new/Multiplier_5bit_constraints.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 489.723 ; gain = 259.605
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t-cpg236'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+Command: report_drc (run_mandatory_drcs) for: opt_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.683 . Memory (MB): peak = 500.367 ; gain = 10.645
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 177d2168f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 52 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 4 load pin(s).
+Phase 2 Constant propagation | Checksum: 1ed2311da
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.340 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 4 cells and removed 553 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 16d8ac534
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.420 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 68 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 16d8ac534
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.424 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Opt 31-389] Phase BUFG optimization created 0 cells and removed 0 cells
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 16d8ac534
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.425 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1000.781 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 16d8ac534
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.426 . Memory (MB): peak = 1000.781 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 23a41d1f8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1000.781 ; gain = 0.000
+21 Infos, 3 Warnings, 3 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1000.781 ; gain = 511.059
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 1000.781 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/Multiplier_5bit_opt.dcp' has been generated.
+Command: report_drc -file Multiplier_5bit_drc_opted.rpt
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/Multiplier_5bit_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t-cpg236'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t-cpg236'
+Command: report_drc (run_mandatory_drcs) for: incr_eco_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+Command: report_drc (run_mandatory_drcs) for: placer_checks
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC BIVC-1] Bank IO standard Vcc: Conflicting Vcc voltages in bank 34. For example, the following two ports in this bank have conflicting VCCOs:  
+B[1] (LVCMOS18, requiring VCCO=1.800) and CLK_in (LVCMOS33, requiring VCCO=3.300)
+report_drc (run_mandatory_drcs) completed successfully
+INFO: [Vivado_Tcl 4-198] DRC finished with 1 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
+32 Infos, 3 Warnings, 3 Critical Warnings and 2 Errors encountered.
+place_design failed
+ERROR: [Common 17-39] 'place_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  8 18:21:00 2017...

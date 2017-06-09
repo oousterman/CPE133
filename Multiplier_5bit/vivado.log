@@ -1,23 +1,51 @@
 #-----------------------------------------------------------
-# Vivado v2016.2 (64-bit)
-# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
-# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Jun 06 17:04:20 2017
-# Process ID: 5940
-# Current directory: E:/CPE 133/Multiplier_5bit
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7452 E:\CPE 133\Multiplier_5bit\Multiplier_5bit.xpr
-# Log file: E:/CPE 133/Multiplier_5bit/vivado.log
-# Journal file: E:/CPE 133/Multiplier_5bit\vivado.jou
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Thu Jun  8 17:45:32 2017
+# Process ID: 5780
+# Current directory: C:/Users/Cole/Desktop/Multiplier_5bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1908 C:\Users\Cole\Desktop\Multiplier_5bit\Multiplier_5bit.xpr
+# Log file: C:/Users/Cole/Desktop/Multiplier_5bit/vivado.log
+# Journal file: C:/Users/Cole/Desktop/Multiplier_5bit\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {E:/CPE 133/Multiplier_5bit/Multiplier_5bit.xpr}
-INFO: [Project 1-313] Project file moved from 'F:/CPE 133/Multiplier_5bit' since last save.
+open_project C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.xpr
+INFO: [Project 1-313] Project file moved from 'E:/CPE 133/Multiplier_5bit' since last save.
 Scanning sources...
 Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.ip_user_files', nor could it be found using path 'E:/CPE 133/Multiplier_5bit/Multiplier_5bit.ip_user_files'.
+INFO: [Project 1-230] Project 'Multiplier_5bit.xpr' upgraded for this version of Vivado.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
-open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 748.035 ; gain = 134.797
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Cole/Desktop/Random_Shortcuts/Vivado/2017.1/data/ip'.
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu Jun  8 18:07:31 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun  8 18:09:20 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jun  8 18:10:39 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun  8 18:15:35 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jun  8 18:16:53 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Jun  8 18:19:11 2017] Launched synth_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Jun  8 18:20:23 2017] Launched impl_1...
+Run output will be captured here: C:/Users/Cole/Desktop/Multiplier_5bit/Multiplier_5bit.runs/impl_1/runme.log
+save_project_as Multiplier_5bit {E:/CPE 133/Multiplier_5bit} -force
+save_project_as: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 879.094 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Jun 06 17:37:43 2017...
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  8 18:30:03 2017...
